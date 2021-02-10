@@ -6,11 +6,11 @@ trap '{ echo "Operation ended. deleting lex.yy.c and a.out" ;
         exit 1; }' INT
 
 # if file with name doesnt exist display error message 
-if [ -e $1.l ]
+if [ -e $1 ]
 then
    echo "Running" "$1" 
-   lex $1.l
-   gcc lex.yy.c
+   flex $1
+   gcc lex.yy.c -ll
    ./a.out
 else
     echo "The file $1 doesn't exist"

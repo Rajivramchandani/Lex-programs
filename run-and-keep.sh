@@ -15,10 +15,10 @@ trap '{ echo "   Operation ended. Output files have been stored in the folder na
         exit 1; }' INT
 
 # if file with name doesnt exist display error message 
-if [ -e $1.l ]
+if [ -e $1 ]
 then
    echo "Running" "$1" 
-   lex $1.l
+   flex $1.l
    gcc lex.yy.c -ll
    ./a.out
 else
