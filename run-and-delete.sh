@@ -5,6 +5,13 @@ trap '{ echo "Operation ended. deleting lex.yy.c and a.out" ;
         rm lex.yy.c a.out; 
         exit 1; }' INT
 
+# in cases where program ends without ctrl+c, delete the lex.yy.c and a.out files before execution
+if [[ -e lex.yy.c || -e a.out ]]
+then
+    echo "Deleting existing lex.yy.c and a.out in folder"
+    rm lex.yy.c a.out; 
+fi
+
 # if file with name doesnt exist display error message 
 if [ -e $1 ]
 then
@@ -14,4 +21,12 @@ then
    ./a.out
 else
     echo "The file $1 doesn't exist"
+fi
+
+# in cases where program ends without ctrl+c, delete the lex.yy.c and a.out files after execution
+if [[ -e lex.yy.c || -e a.out ]]
+then
+    echo "Operation ended. deleting lex.yy.c and a.out" 
+    rm lex.yy.c a.out
+    exit 1
 fi
