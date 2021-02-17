@@ -18,7 +18,7 @@ then
    echo "Running" "$1" 
    flex $1
    gcc lex.yy.c -ll
-   ./a.out
+   ./a.out $2
 else
     echo "The file $1 doesn't exist"
 fi
