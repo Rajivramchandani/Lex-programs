@@ -27,7 +27,9 @@ eol \n
 
 %%
 
-int yywrap() {}
+int yywrap() {
+    return 1;
+}
 
 int main() {
     printf("\nEnter a string : ");

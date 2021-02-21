@@ -14,7 +14,9 @@
 . {} //do nothing for anything else
 %% 
  // Subroutines  
-int yywrap(){} 
+int yywrap(){
+    return 1;
+} 
 
 int main(){
     yylex(); 

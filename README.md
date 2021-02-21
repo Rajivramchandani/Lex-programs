@@ -65,6 +65,8 @@ this method is better suited when running programs which require file inputs
 |--|--|--|
 | 1 | [Hello World](Hello-World) | Print "Hello World" whenever "hi" is given in the input |
 | 2 | [Print given name when enter key is pressed](Print-name-enter-key) | Asks the user to input a name to output when the enter key is pressed. |
-| 3 | [Count Vowels and Consonants](Vowels-consonants) | This program counts the vowels and consonants in the string |
+| 3 | [Vowels and Consonants](Vowels-consonants) | Count vowels and consonants from given input |
 | 4 | [Capital Words](Capital-words) | Print only capital words in a given input |
 | 5 | [Parentheses Check](Parentheses-check) | Check parentheses in a file with number of mismatches and also line number of mismatch |
+| 6 | [Count Identifiers, keywords and etc](Count-identifiers-keywords-etc) | Count comments, keywords, identifiers, lines, words and spaces from an input file |
+
