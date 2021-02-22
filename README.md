@@ -69,4 +69,6 @@ this method is better suited when running programs which require file inputs
 | 4 | [Capital Words](Capital-words) | Print only capital words in a given input |
 | 5 | [Parentheses Check](Parentheses-check) | Check parentheses in a file with number of mismatches and also line number of mismatch |
 | 6 | [Count Identifiers, keywords and etc](Count-identifiers-keywords-etc) | Count comments, keywords, identifiers, lines, words and spaces from an input file |
+| 7 | [Words starting with A](Words-starting-with-A) | Count number of words starting with 'A' or 'a'|
+
 
