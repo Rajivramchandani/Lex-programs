@@ -54,9 +54,9 @@ if you would like to keep the output files in a folder then use the script
 To run any other lex program, replace *hello-world.l* with the selected lex file and respective folder in the above mentioned shell commands 
 
 
-**NOTE**: you can also run the programs by using cd to the respecive folders and using 
+**NOTE**: you can also run the programs by using cd to the respecive folders and using the following script format:
 ```bash 
-../run-and-delete ['file-to-run'].
+../run-and-delete [FILE] [INPUT].
 ```
 this method is better suited when running programs which require file inputs
 ## List and Description of Programs
@@ -70,5 +70,10 @@ this method is better suited when running programs which require file inputs
 | 5 | [Parentheses Check](Parentheses-check) | Check parentheses in a file with number of mismatches and also line number of mismatch |
 | 6 | [Count Identifiers, keywords and etc](Count-identifiers-keywords-etc) | Count comments, keywords, identifiers, lines, words and spaces from an input file |
 | 7 | [Words starting with A](Words-starting-with-A) | Count number of words starting with 'A' or 'a'|
+| 8 | [Words starting with Vovels](Words-starting-with-vovels) | Count number of words starting with vovels |
+| 9 | [Convert uppercase lowercase](Convert-uppercase-lowercase) | Convert uppercase to lowercase and vice versa |
+| 10 | [Check valid Phone number](Check-valid-phone-number) | Check if the given number is a valid phone number |
+
+
 
 

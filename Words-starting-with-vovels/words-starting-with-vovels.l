@@ -1,7 +1,7 @@
 
 %{ 
     //****************************************************************
-    // Flex program to count number of words starting with 'A' or 'a'
+    // Flex program to count number of words starting with vovels
     // ***************************************************************
     //Global definitions
     #include<stdio.h>
@@ -11,13 +11,11 @@
     //character classes 
 letter [a-zA-Z]
 space [ \t]
-
+vovel [aeiouAEIOU]
 %% 
-    // Rules 
-    // words starting with 'A' or 'a' shouldn't have any words before
-    //if you don't want to count singular occurance of 'a' or 'A' then use : {space}(a|A){space} {}  
-[^{letter}].(a|A).({letter})* {words++; } 
-. {}
+   
+[^{letter}].({vovel}).({letter})* {words++;} 
+
 %% 
  // Subroutines  
 int yywrap(){
@@ -28,7 +26,7 @@ int main(int argc, char *argv[]) {
     FILE *fp=fopen(argv[1],"r");
     yyin=fp;
     yylex();
-    printf("Number of words starting with 'A' or 'a' are :  %d \n",words);
+    printf("Number of words starting with vovels are :  %d \n",words);
     fclose(fp);    
     return 0 ;
-}
+}   
