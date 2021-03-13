@@ -1,1 +1,2 @@
-An example of a sentence used for the input file
+An example of a sentence used for the input file.
+this is another sentence

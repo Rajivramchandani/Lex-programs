@@ -73,6 +73,9 @@ this method is better suited when running programs which require file inputs
 | 8 | [Words starting with Vovels](Words-starting-with-vovels) | Count number of words starting with vovels |
 | 9 | [Convert uppercase lowercase](Convert-uppercase-lowercase) | Convert uppercase to lowercase and vice versa |
 | 10 | [Check valid Phone number](Check-valid-phone-number) | Check if the given number is a valid phone number |
+| 11 | [Count lines ending with .com](Count-links) | Count number of lines that end with .com in an input file  |
+| 12 | [Convert decimal to hexadecimal](Convert-decimal-hexadecimal) | Convert any decimal in the given string to hexadecimal |
+
 
 
 

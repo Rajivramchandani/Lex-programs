@@ -35,6 +35,7 @@ fi
 # in cases where program ends without ctrl+c, Save files in respective folder
 if [[ -e lex.yy.c || -e a.out ]]
 then
+   echo ""
    echo "Operation ended. Output files have been stored in the folder named $1-output" 
         if [ -d "$1-output" ]
          then   

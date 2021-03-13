@@ -1,0 +1,4 @@
+example.com
+hello.com
+hello.5com
+hello com

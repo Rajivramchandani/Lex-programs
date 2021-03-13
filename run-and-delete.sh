@@ -26,6 +26,7 @@ fi
 # in cases where program ends without ctrl+c, delete the lex.yy.c and a.out files after execution
 if [[ -e lex.yy.c || -e a.out ]]
 then
+    echo ""
     echo "Operation ended. deleting lex.yy.c and a.out" 
     rm lex.yy.c a.out
     exit 1
