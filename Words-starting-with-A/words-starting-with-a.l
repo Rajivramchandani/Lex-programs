@@ -16,7 +16,7 @@ space [ \t]
     // Rules 
     // words starting with 'A' or 'a' shouldn't have any words before
     //if you don't want to count singular occurance of 'a' or 'A' then use : {space}(a|A){space} {}  
-[^{letter}].(a|A).({letter})* {words++; } 
+[^{letter}](a|A)({letter})*  {words++; } 
 . {}
 %% 
  // Subroutines  

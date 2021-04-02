@@ -75,6 +75,9 @@ this method is better suited when running programs which require file inputs
 | 10 | [Check valid Phone number](Check-valid-phone-number) | Check if the given number is a valid phone number |
 | 11 | [Count lines ending with .com](Count-links) | Count number of lines that end with .com in an input file  |
 | 12 | [Convert decimal to hexadecimal](Convert-decimal-hexadecimal) | Convert any decimal in the given string to hexadecimal |
+| 13 | [Convert infix expression to postfix](Infix-to-postfix) | Convert infix expression to postfix |
+| 14 | [Postfix evaluation](Postfix-evaluation) | Evaluate given postfix expression |
+
 
 
 

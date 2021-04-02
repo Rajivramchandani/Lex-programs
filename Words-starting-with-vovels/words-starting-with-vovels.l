@@ -14,7 +14,7 @@ space [ \t]
 vovel [aeiouAEIOU]
 %% 
    
-[^{letter}].({vovel}).({letter})* {words++;} 
+[^{letter}]({vovel})({letter})* {words++;} 
 
 %% 
  // Subroutines  
