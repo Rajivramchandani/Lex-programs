@@ -77,6 +77,10 @@ this method is better suited when running programs which require file inputs
 | 12 | [Convert decimal to hexadecimal](Convert-decimal-hexadecimal) | Convert any decimal in the given string to hexadecimal |
 | 13 | [Convert infix expression to postfix](Infix-to-postfix) | Convert infix expression to postfix |
 | 14 | [Postfix evaluation](Postfix-evaluation) | Evaluate given postfix expression |
+| 15 | [Calculator with error recovery](Calculator-error-recovery) | A calulator that can recover from errors in syntax |
+| 16 | [For loop parser](For-loop-parser) | Parser for valid "for" loops |
+| 17 | [IC generator](IC-generator) | Intermediate code generator for an arithmatic expression |
+
 
 
 
